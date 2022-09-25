@@ -1,0 +1,411 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(229,244,251,255)   ;
+    position: sticky;
+}
+nav img {
+    width: 120px;
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin: 30px;
+    padding-top: 40px;
+    color: rgba(196,211,218,255);
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.nav-left a:hover {
+    border-bottom: 3px solid rgba(180,175,199,255) ;
+}
+
+nav button   {
+  text-decoration: none;
+  border: none;
+  margin-right: 50px;
+  margin-top: 20px;
+  width: 90px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgba(254,254,254,255);
+  color: rgba(202,203,204,255);
+}
+nav button:hover {
+    background-color: rgb(246, 240, 240);
+}
+.sec1 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+   
+}
+.sec1 img {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+}
+.sec1 .divall {
+    display: flex;
+   
+}
+.divall .div1 {
+    margin-top: 100px;
+    margin-left: 45px;
+  
+}
+.div1 h1 {
+    padding: 10px;
+    font-size: 50px;
+    color: rgba(108,123,130,255);
+    
+    
+}
+.div1 span {
+    color: rgba(112,55,137,255);
+}
+.div1 h6 {
+    font-size: 20px;
+    color: rgb(88, 85, 85);
+    padding-top: 5px;
+}
+.div2 {
+    position: relative;
+    left: 45%;
+    
+}
+.div2 .img1 {
+    width: 550px;
+    height: 650px;
+    position: absolute;
+    right: 1px;
+   
+    
+}
+.div2 .img2 {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+.div2 .img3 {
+    width: 500px;
+    height: 300px; 
+    position: absolute;
+    right: 3px;
+    top: 370px;
+}
+.sec1 .mmm {
+    margin-top: 170px;
+    width: 70%;
+    position: absolute;
+    z-index: 1;
+    height: 300px;
+}
+.sec2 {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.sec2 .img5 {
+    width: 65%;
+    margin-left: 50px;
+    position: absolute;
+    z-index: -1;
+    top: 170px;
+    left: 200px;
+    right: 150px;
+
+}
+.div3  {
+    /* margin-left: 30px; */
+    height: 250px;
+    width: 350px;
+    margin-top: 250px;
+    margin-left: 0;
+    position: absolute;
+    left: 90px;
+   
+}
+.div3 .fimg {
+    width: 150px;
+    height: 150px;
+    margin-left: 90px;
+}
+.div3 h1 {
+    color: rgba(187,187,187,255);
+    padding: 10px 2px;
+    text-align: center;
+    margin-left: 0;
+    
+}
+.div3 h4 {
+   
+    color: rgb(88, 85, 85);
+    padding: 7px 2px;
+    text-align: center;
+    margin-left: 0;
+    
+}
+.div3 h6 {
+    color: rgb(88, 85, 85);
+    padding: 7px 2px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 15px;
+}
+.div4  {
+    /* margin-left: 30px; */
+    height: 250px;
+    width: 350px;
+    margin-top: 400px;
+    margin-left: 0;
+    position: absolute;
+    left: 550px;
+
+}
+.div4 .mimg {
+    width: 150px;
+    height: 150px;
+    margin-left: 90px;
+}
+.div4 h1 {
+    color: rgba(187,187,187,255);
+    padding: 10px 2px;
+    text-align: center;
+    margin-left: 0;
+    
+}
+.div4 h4 {
+   
+    color: rgb(88, 85, 85);
+    padding: 7px 2px;
+    text-align: center;
+    margin-left: 0;
+    
+}
+.div4 h6 {
+    color: rgb(88, 85, 85);
+    padding: 7px 2px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 15px;
+}
+.div5  {
+    /* margin-left: 30px; */
+    height: 250px;
+    width: 350px;
+    margin-top: 650px;
+    margin-left: 0;
+    position: absolute;
+    left: 850px;
+}
+.div5 .rimg {
+    width: 190px;
+    height: 150px;
+    margin-left: 90px;
+}
+.div5 h1 {
+    color: rgba(187,187,187,255);
+    padding: 10px 2px;
+    text-align: center;
+    margin-left: 0;
+    
+}
+.div5 h4 {
+   
+    color: rgb(88, 85, 85);
+    padding: 7px 2px;
+    text-align: center;
+    margin-left: 0;
+    
+}
+.div5 h6 {
+    color: rgb(88, 85, 85);
+    padding: 7px 2px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 15px;
+}
+.div6 {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 600px;
+    left: 130px;
+}
+.div6 .limg {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    z-index: -1;
+}
+.div6 h6 {
+    color: white;
+    position: absolute;
+    bottom: 210px;
+    left: 90px;
+    font-size: 17px;
+}
+.div6 h1 {
+    position: absolute;
+    bottom: 150px;
+    left: 90px;
+    font-size: 44px;
+    color: white;
+}
+.sec2 .oimg {
+    position: absolute;
+    top: 1100px;
+    left: 280px;
+    width: 180px;
+    height: 200px;
+}
+.div7 {
+    height: 250px;
+    width: 350px;
+    margin-top: 650px;
+    margin-left: 0;
+    position: absolute;
+    left: 600px;
+}
+.div7 .img7 {
+    width: 350px;
+    height: 350px;
+}
+.div7 h1 {
+    color: rgba(187,187,187,255);
+    padding: 15px 2px;
+    text-align: center;
+    margin-left: 0;
+}
+.div7 p {
+    text-align: center;
+    color: rgb(88, 85, 85);
+}
+.div7 .fa-chevron-left {
+   position: absolute;
+   top: 270px;
+   left: -100px;
+}
+.div7 .fa-chevron-right {
+    position: absolute;
+    top: 270px;
+    left: 430px;
+}
+.sec2 .nimg {
+    position: absolute;
+    top: 1100px;
+    left: 1080px;
+    width: 180px;
+    height: 200px;
+}
+footer {
+    width: 100%;
+   height: 130vh;
+    position: relative;
+    overflow: hidden;
+}
+
+footer .uimg {
+    width: 110%;
+    position: absolute;
+    z-index: -1;
+    top: 400px;
+    /* bottom: 400px; */
+    left: -29px;
+    right: -1px;
+}
+footer .pimg {
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    top: 480px;
+    left: 720px;
+}
+footer .divapp {
+    display: flex;
+    position: absolute;
+    top: 750px;
+    left: 150px;
+}
+.divapp .bdiv {
+    width: 120px;
+    background-color: white;
+    height: 50px;
+    border-radius:10px ;
+    padding-left: 5px;
+    padding-top: 3px;
+    display: flex;
+    margin: 10px;
+}
+.bdiv p {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.bdiv img {
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+.divapp .adiv {
+    width: 120px;
+    background-color: white;
+    height: 50px;
+    border-radius:10px ;
+    padding-left: 5px;
+    padding-top: 3px;
+    display: flex;
+    margin: 10px;
+}
+.adiv p {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.adiv img {
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+footer .idiv {
+    display: flex;
+    position: absolute;
+    top: 820px;
+    left: 160px;
+}
+.idiv img {
+    width: 20px;
+    margin: 6px;
+}
+footer .end {
+    display: flex;
+    position: absolute;
+    top: 890px;
+    left: 160px;
+}
+.end a {
+    margin: 10px;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+.end a:hover {
+    border-bottom: 3px solid rgba(180,175,199,255) ;
+}
+    
